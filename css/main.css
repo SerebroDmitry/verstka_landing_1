@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #787878;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.header_contain {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/laptop.jpg');
+    background-size: 100% auto;
+}
+
+header {
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    align-items: start;
+    justify-content: end;
+    width: 1170px; 
+    height: 670px;
+}
+
+.header_top {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_menu {
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 616px;
+}
+
+.top_menu_link {
+    color: black;
+    text-decoration: none;
+}
+.top_menu_link:active {
+    color: #4ad2cd;
+}.top_menu_link:visited {
+    color: #4ad2cd;
+}
+
+.header_info_div {
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    width: 45%;
+    margin-left: 55%;
+    margin-top: -10%;
+}
+.header_content {
+    color: #1d1d1d;
+    font-size: 38px;
+    font-weight: 700;
+    width: 100%;
+}
+.header_content_text {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 0px;
+}
+
+button {
+    width: 182px;
+    height: 55px;
+    color: white;
+    background-color: #4ad2cd;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: 0px solid white;
+}
+button:active {
+    background-color: #ecedee00;
+    color: #4ad2cd;
+    border: 1px solid #4ad2cd;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 418px;
+    background-color: white;
+}
+
+.about_us_p {
+    position: absolute;
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 500;
+    top: 85%;
+}
+.about_us_text {
+    position: absolute;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    width: 833px; 
+    top: 90%;
+}
+.about_us_signature {
+    position: absolute;
+    top: 102%;
+}
+
+.prof_skills_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('./images/pancil.png');
+    background-size: 100% auto;
+}
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    width: 1170px;
+    height: 570px;
+}
+.prof_skills {
+    margin-top: 26%;
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1d1d1d
+}
+.skills {
+    font-size: 12px;
+    margin-top: 20px;
+}
+.right_space {
+    width: 50%;
+    height: 100%;
+}
+
+.Loading_container1 {
+    width: 70%;
+    box-sizing: border-box;
+    background: #eeeef100;
+}
+.Loading1 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background: #cecece;
+} 
+.Loading1:after {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background: #4ad2cd;
+}
+
+.Loading_container2 {
+    width: 70%;
+    box-sizing: border-box;
+    background: #e9e9ee00;
+}
+.Loading2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background: #cecece;
+} 
+.Loading2:after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: #4ad2cd;
+}
+
+.Loading_container3 {
+    width: 70%;
+    box-sizing: border-box;
+    background: #e9e9ee00;
+}
+.Loading3 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background: #cecece;
+} 
+.Loading3:after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    background: #4ad2cd;
+}
+
+.statistic_page {
+    display: flex;
+    width: 100%;
+    height: 240px;
+    background-color: #4ad2cd;
+    align-items: center;
+    justify-content: center;
+}
+
+.container4 {
+    display: grid;
+    width: 1170px;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.statistic_item {
+    display: table-column;
+    align-items: center;
+    justify-content: start;
+    color: white;
+}
+.item_count {
+    width: 100%;
+}
+.item_description {
+    width: 100%;
+}
